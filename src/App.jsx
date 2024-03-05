@@ -1,13 +1,16 @@
 import React  from 'react';
 // import './App.css';
-import ScrollTrig from './components/ScrollTrigger/ScrollTrigger'
+// import ScrTrigger from './components/ScrollTrigger/ScrTrigger';
+// import Scr from './components/Scr/Scr';
+import ScrTrigger from './components/ScrollTrigger/ScrTrigger';
 
 
 function App() {
 
   return (
     // <SimplAnimate/>
-    <ScrollTrig/>
+    // <Scr/>
+    <ScrTrigger/>
     
 
   );

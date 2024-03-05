@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,17 +1,19 @@
 import React, {useLayoutEffect} from 'react';
 import gsap from 'gsap';
+import { useGSAP } from "@gsap/react";
+
 import {ScrollTrigger}  from 'gsap/ScrollTrigger';
-import './ScrollTrigger.css';
+
 import dog1 from './dog-1.jpg';
 import dog2 from './dog-2.jpg';
 import dog3 from './dog-3.jpg';
-import './ScrollTrigger.css';
+import './ScrTrigger.css';
 
 
-function ScrollTrig() {
+function ScrTrigger() {
     gsap.registerPlugin(ScrollTrigger);
 
-    useLayoutEffect(() => {
+    useGSAP(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: ".section--blue",
@@ -56,4 +58,4 @@ function ScrollTrig() {
   }
   
 
-export default ScrollTrig;
+export default ScrTrigger;
