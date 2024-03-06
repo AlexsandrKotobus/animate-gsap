@@ -1,4 +1,4 @@
-import React, {useLayoutEffect} from 'react';
+import React from 'react';
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 
@@ -11,6 +11,7 @@ import './ScrTrigger.css';
 
 
 function ScrTrigger() {
+
     gsap.registerPlugin(ScrollTrigger);
 
     useGSAP(() => {

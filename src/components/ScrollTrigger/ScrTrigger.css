@@ -26,7 +26,8 @@
 }
 
 .square--active {
-  border-radius: 20px;
+  border-radius: 30px;
+  /* background: linear-gradient(rgb(238, 238, 239), rgb(223, 4, 40)); */
 }
 
 img {
